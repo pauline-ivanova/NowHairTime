@@ -1,9 +1,0 @@
-{
-  "buildCommand": "cd nht-landing && npm install && npm run build",
-  "outputDirectory": "nht-landing/.next",
-  "devCommand": "cd nht-landing && npm run dev",
-  "installCommand": "cd nht-landing && npm install",
-  "framework": "nextjs",
-  "rootDirectory": "nht-landing"
-}
-

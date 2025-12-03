@@ -40,14 +40,21 @@ npm start
 
 ## Deployment
 
-This project is optimized for deployment on [Vercel](https://vercel.com):
+This project is deployed on [Vercel](https://vercel.com).
 
-1. Push your code to GitHub
-2. Import the repository on [Vercel](https://vercel.com/new)
-3. Vercel will automatically detect Next.js and configure the build settings
-4. Deploy!
+**Project ID:** `prj_feHhwbY69OJHjjeoAcHo4Tt8BhBd`
 
-The site will be live at `https://your-project.vercel.app`
+### Vercel Settings
+
+For this project to work correctly on Vercel, make sure the following settings are configured:
+
+1. **Root Directory:** Set to `nht-landing`
+2. **Framework Preset:** Next.js
+3. **Build Command:** `npm run build` (auto-detected)
+4. **Output Directory:** `.next` (auto-detected)
+5. **Install Command:** `npm install` (auto-detected)
+
+The site will be live at your Vercel deployment URL.
 
 ## Project Structure
 
